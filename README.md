@@ -91,7 +91,6 @@ Gracias a ese curso entendí las bases (variables, funciones, condicionales, cic
 
 ## Cosas que quiero mejorar
 
-- Corregir un error que sale cuando alguien está conectado pero todavía no eligió mascota: el otro jugador recibe un error al leer sus datos.
 - Hacer que la dirección del servidor no esté escrita a mano, para que funcione desde cualquier dispositivo sin editar el archivo.
 - Que el mapa sea más grande y tenga más de una mascota para buscar.
 

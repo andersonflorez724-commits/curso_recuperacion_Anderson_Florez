@@ -434,7 +434,9 @@ function enviarPosicion(x, y) {
         if (res.ok) {
             res.json()
             .then(function ({ enemigos }) {
-                mokeponesEnemigos = enemigos.map(function (enemigo) {
+                mokeponesEnemigos = enemigos.filter(function (enemigo) {
+                    return enemigo.mokepon
+                }).map(function (enemigo) {
                     console.log({enemigo});
                     
                     let mokeponEnemigo = null
@@ -552,4 +554,9 @@ function revisarColision(enemigo) {
     seleccionarMascotaEnemigo(enemigo)
 }
 
+function salirDelJuego() {
+    navigator.sendBeacon(`http://localhost:8080/mokepon/${jugadorId}/salir`)
+}
+
+window.addEventListener('beforeunload', salirDelJuego)
 window.addEventListener('load', iniciarJuego)
