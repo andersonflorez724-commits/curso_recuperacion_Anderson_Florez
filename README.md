@@ -89,11 +89,3 @@ https://platzi.com/p/andersonflorez724/curso/3208-programacion-basica-2022/diplo
 
 Gracias a ese curso entendí las bases (variables, funciones, condicionales, ciclos, clases) y también me animé a conectar el juego con un servidor para que dos personas pudieran jugar al mismo tiempo.
 
-## Cosas que quiero mejorar
-
-- Hacer que la dirección del servidor no esté escrita a mano, para que funcione desde cualquier dispositivo sin editar el archivo.
-- Que el mapa sea más grande y tenga más de una mascota para buscar.
-
-Si ves algo raro o tienes una idea mejor, siéntete libre de abrir un issue o mandarme un pull request. Todavía estoy aprendiendo, así que cualquier comentario me sirve.
-
-— Anderson Florez
